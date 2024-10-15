@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  
+ 
+}
+.navbar{
+    background-color:rgb(174, 29, 135);
+    padding: 10px;
+}
+.container{
+    padding: 20px;
+}
+.bookcontainer{
+   background-color: black;
+   color: white;
+   padding: 15px;
+   width: 25%;
+   border-radius: 10px;
+   margin: 30px;
+   display: inline-block;
+   vertical-align: top;
+   
+}
+.bookcontainer h2{
+    color: rgb(174, 29, 135);
+}
+.bookcontainer button{
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(174, 29, 135);
+    margin: 10px 0 10px 5px;
+    border: none;
+}
+.addbutton{
+    border-radius: 100%;
+    font-size: 40px;
+    background-color: rgb(174, 29, 135);
+    color: black;
+    padding: 20px 30px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+
+}
+.popoverlay{
+    background-color: rgba(0, 0, 0, 0.774);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color:rgb(174, 29, 135);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.popup-box textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box button{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.popup-box input:focus{
+  outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+  }
